@@ -1,0 +1,33 @@
+#cuadrado {
+    background-color: blue;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+#rojo {
+    background-color: red;
+    width: 70px;
+    height: 600px;
+    float: left;
+}
+
+#verde {
+    background-color: green;
+    width: 70px;
+    height: 600px;
+    float: right;
+}
+
+#naranja {
+    background-color: orange;
+    height: 70px;
+    width: 600px;
+}
+
+#purple {
+    background-color: blueviolet;
+    height: 70px;
+    width: 600px;
+    margin-top: 460px;
+}

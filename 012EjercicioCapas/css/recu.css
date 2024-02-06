@@ -1,0 +1,45 @@
+#cuadrado {
+    border: solid 5px black;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+#red {
+    background-color: red;
+    width: 50px;
+    height: 600px;
+    float: left;
+
+}
+
+#centro {
+    width: 500px;
+    height: 500px;
+    float: left;
+
+}
+
+#yellow {
+    background-color: yellow;
+    height: 50px;
+
+}
+
+#blue {
+    background-color: blue;
+    height: 500px;
+}
+
+#purple {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+#green {
+    background-color: green;
+    width: 50px;
+    height: 600px;
+    float: left;
+
+}
