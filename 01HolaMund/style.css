@@ -1,0 +1,22 @@
+body {
+    background-color: purple;
+    color: white;
+
+}
+
+
+h1 {
+    color: white;
+
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+
+    justify-content: center;
+}
