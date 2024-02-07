@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: right;
+    font-size: 70px;
+
+
+}
+
+h2 {
+    font-size: 40px;
+
+}
+
+.rojo {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.big {
+    color: blue;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.blanc {
+    background-color: white;
+    color: greenyellow;
+}

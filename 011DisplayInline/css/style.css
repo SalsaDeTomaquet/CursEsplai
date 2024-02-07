@@ -1,0 +1,23 @@
+.fondo {
+    background-image: url(/img/fondo.jpg);
+    width: 750px;
+    height: 571px;
+    margin: auto;
+}
+
+p {
+    display: inline-block;
+    width: 23%;
+    padding: 30px;
+    vertical-align: top;
+
+}
+
+#green {
+
+    width: 23%;
+}
+
+#orange {
+    margin-left: 30px;
+}

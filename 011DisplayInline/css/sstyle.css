@@ -1,0 +1,27 @@
+.fondo {
+    background-image: url(/img/fondo.jpg);
+    width: 750px;
+    height: 571px;
+    margin: auto;
+}
+
+p {
+    float: left;
+    width: 25%;
+    padding: 25px;
+    margin: auto;
+}
+
+#red {}
+
+#orange {
+
+    margin-left: 15px;
+}
+
+
+
+#green {
+
+    margin-left: 10px;
+}
