@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: auto;
+    display: flex;
+
+    justify-content: center;
+    width: 1000px;
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+ul {
+
+    list-style: none;
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border-bottom: solid 2px black;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.right {
+    border-left: solid 2px black;
+}

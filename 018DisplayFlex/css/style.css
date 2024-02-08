@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Justify content, align items center 
+*/
+#container {
+    background: url(../img/1.jpg) no-repeat;
+    margin: auto;
+    width: 750px;
+    height: 571px;
+    display: flex;
+    text-align: center;
+    padding: 5px;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+
+    width: 33%;
+
+}
