@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    background-image: url(../img/panteon.jpg);
+    width: 722px;
+    height: 480px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    align-items: center;
+}
+
+.columnas {
+    width: 55px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    margin-top: 90px;
+
+}
