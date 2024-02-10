@@ -9,9 +9,11 @@
 body {
     /* background-color: #bfc1b0; */
     /* background-image: conic-gradient(red, yellow, green, blue, black); */
-    background: url(../img/background.jpg);
+    background: url(../img/background2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .fons {
@@ -40,7 +42,7 @@ body {
 }
 
 h2 {
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/background2.jpg);
     font-size: 30px;
     padding: 2px;
 }
