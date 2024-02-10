@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+p:first-of-type:first-letter {
+    font-size: 3em;
+
+}
+
+.contaner {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* El div "Contaner" dentro del div "box" para los div sin clases */
+div>.box>div {
+    width: 210px;
+    height: 210px;
+    border: dashed 1px orange;
+    padding: 10px;
+    margin: 10px
+}

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sangria {
+    padding-left: 22px;
+    text-indent: -22px;
+
+}
+
+p:first-of-type:first-letter {
+    font-size: 3em;
+
+}
+
+p {
+    margin-left: 10px;
+}
