@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-shadow: 50px 50px blue, -50px -50px orange, 50px -50px red, -50px 50px brown;
+}
+
+h1:hover {
+    transition: 3s;
+    text-shadow: -50px -50px blue, 50px 50px orange, -50px 50px red, 50px -50px brown;
+
+}
+
+.centro {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}

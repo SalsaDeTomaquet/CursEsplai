@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scrollbar-color: red blue;
+    /* scrollbar-width: 1px; */
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+
+    font-size: 70px;
+    /* overflow: auto; */
+
+
+
+}

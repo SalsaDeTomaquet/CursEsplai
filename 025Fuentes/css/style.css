@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: algo;
+    src: url(../font/fuente.ttf);
+}
+
+h1 {
+    font-family: algo;
+    font-size: 5rem;
+
+}
+
+div {
+    padding: 20px;
+    border: solid 50px;
+
+}
+
+.stretch {
+    border-image: url(../img/border.png) 30 30 stretch;
+}
+
+.round {
+    border-image: url(../img/border.png)30 30 round;
+}
+
+.cuadrado {
+    width: 240px;
+    height: 240px;
+    background: blue;
+    transition: 2s;
+
+}
+
+.cuadrado:hover {
+    background: red;
+    transition: 2s;
+}

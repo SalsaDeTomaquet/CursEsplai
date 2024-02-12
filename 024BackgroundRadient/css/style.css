@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    background: url(../img/tijeras.svg) no-repeat bottom right, url(../img/mundo.svg), linear-gradient(to bottom, #93cede 0%, #7c6d45 29%, #93cede 40%, #75bdd1 59%, #7c6d45 89%, #49a5bf 100%);
+    width: 500px;
+    height: 500px;
+    background-size: auto, 50% 50%, auto;
+
+}
