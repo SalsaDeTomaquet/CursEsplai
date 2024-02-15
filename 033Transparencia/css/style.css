@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+a .imagen {
+    background-image: url(../img/1.webp);
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: none;
+}
+
+a:hover .imagen {
+    color: black;
+    display: block;
+    background-size: cover;
+}
