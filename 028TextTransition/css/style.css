@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #aa0;
+    transition: width 1s, height 5s, font-size 5s, color 10s;
+}
+
+div:hover {
+    /* transition: 3s; */
+    width: 600px;
+    height: 600px;
+    font-size: 500px;
+    background-color: blue;
+    color: #fff
+}
