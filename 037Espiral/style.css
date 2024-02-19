@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes ilusion {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+img {
+    animation: ilusion 2s infinite linear;
+    width: 100%;
+    height: 100%;
+}

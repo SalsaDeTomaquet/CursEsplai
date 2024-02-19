@@ -1,0 +1,67 @@
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    display: flexbox;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: flechita;
+    src: url(../ico/Arrows_tfb.ttf);
+}
+
+ul:first-child {
+    text-transform: capitalize;
+}
+
+li.hasChildren ul {
+    opacity: 0;
+    overflow: hidden;
+    max-height: 0
+}
+
+li.hasChildren>a:after {
+    color: purple;
+    content: "A";
+    font-family: flechita;
+}
+
+.hasChildren ul {
+    position: absolute;
+    left: 245px;
+    transition: 1s;
+    top: 155px;
+}
+
+.hasChildren li {
+    display: block;
+    position: relative;
+}
+
+.menu li a {
+    color: #F0D3F7;
+    background: #120D31;
+    border: solid #F0D3F7 4px;
+    border-radius: 20px;
+    margin: 1px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+
+}
+
+.menu li a:hover {
+    background-color: #E3C2E3;
+    color: #6B5468;
+
+}
+
+li.hasChildren:hover ul {
+    opacity: 1;
+    max-height: 800px;
+}

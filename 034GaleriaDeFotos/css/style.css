@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    position: relative;
+    color: black;
+
+
+}
+
+
+img {
+    position: absolute;
+    transition: 1s;
+
+}
+
+p {
+    position: relative;
+    left: 20%;
+    top: 30%;
+    color: orange;
+    font-size: 40px;
+    opacity: 0;
+    transition: 1s
+}
+
+img:hover {
+    opacity: 50%;
+    /* transition: 4s; */
+}
+
+
+p:hover {
+    opacity: 10;
+
+}
+
+div:hover img {
+    opacity: 0.5;
+    transition: 4s;
+
+}
