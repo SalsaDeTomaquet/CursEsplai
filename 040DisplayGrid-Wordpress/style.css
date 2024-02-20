@@ -1,0 +1,24 @@
+.box {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.rosa {
+    background: pink;
+
+
+}
+
+.azul {
+    background: blue;
+    grid-row: 1/3;
+    grid-column: 1;
+
+}
+
+.naranja {
+    background: orange;
+    grid-column: 2;
+}

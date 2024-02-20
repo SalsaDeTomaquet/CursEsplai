@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: atun;
+    src: url(./font/Strickland\ Keafney.otf);
+}
+
+.derecha {
+
+    display: inline-block;
+    background-color: red;
+    width: 300px;
+    vertical-align: top;
+}
+
+
+.container {
+    margin: auto;
+    /* width: 1024px; */
+
+
+}
+
+.oscuro {
+    padding: 50px;
+    background: #1e1b1a repeat;
+    color: #fff;
+
+
+}
+
+.bloques {
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.ping a {
+    text-decoration: none;
+    color: #627084;
+    border-bottom: solid 1px;
+    width: 100%;
+    background-color: red;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.izquierda {
+    width: 65%;
+
+}
+
+.izquierda h2 {
+    padding: 10px;
+    color: #16a085;
+}
+
+.derecha h2 {
+    padding: 10px;
+
+}
+
+h5 {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.medio {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1024px;
+
+    margin: auto;
+
+
+}
+
+
+nav {
+    background-color: rgba(22, 160, 133, 0.8);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    font-family: atun;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+li:hover .navi {
+    background-color: rgba(22, 160, 133, 1.2);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    /* text-transform: uppercase */
+}
+
+.navi {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    opacity: 0.8;
+    padding: 20px;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 90px;
+    padding: 10px;
+}
+
+.grassy {
+    padding: 180px;
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+}
+
+.hierba {
+    background: url(./img/grassy/pic01.jpg);
+    height: 400px;
+}
