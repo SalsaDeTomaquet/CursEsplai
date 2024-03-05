@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'custom';
+    color: #797979;
+}
+
+@font-face {
+    font-family: 'custom';
+    src: url(./img/Roboto-Thin.ttf);
+
+}
+
+
+.fondo {
+    height: 400px;
+    background: url(./img/header.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondopie {
+
+    background: url(./img/header.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondopie p {
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+.container {
+    margin: auto;
+
+    width: 1200px;
+
+}
+
+.gris {
+    background-color: #f2f2f2;
+}
+
+.presentacion {
+    border-bottom: 1px solid grey;
+    text-align: center;
+
+}
+
+.presentacion h1 {
+    padding: 30px;
+
+}
+
+
+.box {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.box h2 {
+    margin-bottom: 25px;
+}
+
+.box a {
+    margin-top: 20px;
+    display: block;
+    background-color: #72ac80;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.pie {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.pie p {
+    padding: 20px;
+}
+
+.pie h3 {
+    padding: 20px;
+}
+
+.pie h1 {
+    padding: 30px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.margin {
+    margin-top: 40px;
+}
+
+.caixa {
+    width: 500px;
+    /* overflow: hidden; */
+    margin-bottom: 30px;
+    /* flex-wrap: wrap; */
+}
+
+.esquerra {
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+.presentacion p {
+    padding: 10px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    list-style: none;
+    position: fixed;
+    width: 100%;
+    font-family: 'custom';
+    text-transform: uppercase;
+}
+
+.menu li a {
+    padding: 30px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li:not(:last-child) {
+    border-right: solid 1px gray;
+}
+
+
+
+.bloques {
+    display: flex;
+
+    background-color: red;
+}
+
+.bloques div {
+    margin: auto;
+    margin-top: 10px;
+}
+
+.presentacion p {
+    border-bottom: 3px solid #bcbcbc;
+}
+
+img {
+    width: 500px;
+}
